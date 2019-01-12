@@ -1,0 +1,385 @@
+*
+{
+    box-sizing: border-box;
+    transition: all ease-in-out .5s
+}
+body
+{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+section
+{
+    padding: 70px 0px
+}
+.col-md-3
+{
+    overflow: hidden
+}
+/*navbar*/
+.navbar
+{
+    background-color: #323232;
+    position: relative;
+    
+}
+.navbar a
+{
+    color: white;
+}
+.navbar a:hover
+{
+    color: #2eb398
+}
+.navbar ul
+{
+    margin:auto;
+}
+
+.triangle
+{
+    position: absolute;
+    top: 100%;
+    left: 47.5%;
+    margin: auto;
+    border-top: 40px solid #323232;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+}
+/*portflio*/
+/*.hexagondiv
+{
+    float: left;
+    margin-left: 7px;
+    margin-bottom: -46px
+}
+.hexagon
+{
+    width: 208px;
+    height: 120px;
+    background-color: #6C6;
+    background-size: cover
+   
+}
+.hexagonbottom{
+    width: 0;
+    border-top: 60px solid #6C6;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+}
+.hexagontop{
+    width: 0;
+    border-bottom: 60px solid #6C6;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+}
+.even
+{
+    margin-left: -53px;
+    
+}
+.row
+{
+    clear: left;
+}
+.odd
+{
+   margin-left: 53px;
+    
+}
+
+*/
+.fixcenter
+{
+    margin-left: 90px
+}
+.hexagon {
+  position: relative;
+  width: 200px; 
+  height: 115.47px;
+  margin: 50px 5px;
+  background-size: auto 230.9401px;
+  background-position: center;
+    cursor: pointer;
+    
+}
+
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 29.29px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 200.0000px;
+  height: 115.47005383792516px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -70.7107px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 200.0000px;
+  height: 115.4701px;
+  z-index: 2;
+  background: inherit;
+}
+.odd
+{
+   margin-left: 40px 
+}
+/*blog*/
+#blog
+{
+    background-color: #2eb398;
+    color: white;
+}
+#blog .container
+{
+    border-right: 1px solid #219d84;
+    border-left: 1px solid #219d84;
+}
+
+.hexagon1 {
+  position: relative;
+  width: 200px; 
+  height: 115.47px;
+  margin: 57.74px auto;
+  background-image: url(../images/test.jpeg);
+  background-size: auto 230.9401px;
+  background-position: center;
+}
+
+.hexTop1,
+.hexBottom1 {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 29.29px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop1:after,
+.hexBottom1:after {
+  content: "";
+  position: absolute;
+  width: 200.0000px;
+  height: 115.47005383792516px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop1 {
+  top: -70.7107px;
+}
+
+.hexTop1:after {
+  background-position: center top;
+}
+
+.hexBottom1 {
+  bottom: -70.7107px;
+}
+
+.hexBottom1:after {
+  background-position: center bottom;
+}
+
+.hexagon1:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 200.0000px;
+  height: 115.4701px;
+  z-index: 2;
+  background: inherit;
+}
+#blog i.fa
+{
+    padding: 10px;
+    color: #03ac95;
+    margin: 0px !important;
+    cursor: pointer
+}
+#blog i.fa:hover
+{
+    background-color: #323232 !important
+}
+.icons
+{
+    margin-top: 50px;
+    text-align: right
+}
+/*contact*/
+#contact
+{
+    background-color: #323232;
+    color: #cacaca
+}
+#contact input,#contact textarea
+{
+   display: block;
+    background-color: #454545;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    padding: 10px
+}
+::placeholder
+{
+    color: #cacaca
+}
+#contact input.btn1
+{
+    width: 200px;
+    background-color: #2eb398;
+    color: white;
+    float: right;
+    cursor: pointer
+}
+#contact input.btn1:hover
+{
+    background-color: #222222;
+}
+#contact i
+{
+    color: #2eb398;
+    
+}
+/*footer*/
+footer
+{
+    background-color: #222222;
+    color: white;
+    padding: 10px
+}
+footer p
+{
+    margin: 0
+}
+/*media*/
+@media screen and (max-width: 991px)
+{
+    .triangle,.arrow
+    {
+        display: none
+    }
+    .fixcenter
+    {
+        margin: auto
+    }
+    .hexagon
+    {
+       width: 10%;
+        margin: 50px 20px
+        
+    }
+}
+@media screen and (max-width: 1200px)
+{
+    .triangle,.arrow
+    {
+        display: none
+    }
+    .hexagon
+    {
+       width: 10%;
+       margin: 50px 40px
+        
+    }
+    .fixcenter
+    {
+        margin: auto
+    }
+}
+@media screen and (max-width: 760px)
+{
+     .hexagon
+    {
+       width: 10%;
+        margin: 50px 20px
+        
+    }
+    .fixcenter
+    {
+        margin: auto
+    }
+   #blog,#contact,.navbar{
+        text-align: center !important
+    }
+}
+@media screen and (max-width: 700px)
+{
+     .hexagon
+    {
+       width: 10%;
+        margin: 50px 5px
+        
+    }
+    .fixcenter
+    {
+        margin: auto
+    }
+}
+@media screen and (max-width: 410px)
+{
+     .hexagon
+    {
+       display: block;
+       margin: 50px 0px
+        
+    }
+    .fixcenter
+    {
+        margin: auto
+    }
+}
